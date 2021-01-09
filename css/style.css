@@ -105,7 +105,6 @@ body{
 
 .o::after {
   content: '○';
-  color: #F2EBD3;
   font-size: 125px;
 }
 
