@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-Game_web_project
 Names of Team
-Ali Mahmoud Abdelaliem
+       Ali Mahmoud Abdelaliem
        Ali Mohammed Abdelaziz Ali
        Mostafa Gamal
        
