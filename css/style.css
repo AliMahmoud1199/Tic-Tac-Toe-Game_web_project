@@ -14,6 +14,13 @@ body{
     margin: 10px;
     padding: 10px;
 }
+
+#hexx{display: none}
+#colorx{
+    margin: 10px;
+    padding: 10px;
+}
+
 #hex{
     display: none
 }
@@ -21,6 +28,17 @@ body{
     margin: 10px;
     padding: 10px;
  }
+
+
+
+
+
+
+
+
+
+
+
 .container {
   background: #959998;
   margin-left: 150px;
