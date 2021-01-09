@@ -317,7 +317,50 @@ colinput.addEventListener('input',fun_color);
 
 
 
-
+//***************************************************** x o colors
+let colinputx =document.querySelector('#colorx');
+let hexinputx =document.querySelector('#hexx'); 
+function xo_color() {
+    let color=colinputx.value;
+    hexinputx.value=color;
+       document.querySelector('#g1').style.color=color;
+       document.querySelector('#g2').style.color=color;
+         document.querySelector('#g3').style.color=color;
+        document.querySelector('#g4').style.color=color;
+        document.querySelector('#g5').style.color=color;
+        document.querySelector('#g6').style.color=color;
+        document.querySelector('#g7').style.color=color;
+        document.querySelector('#g8').style.color=color;
+        document.querySelector('#g9').style.color=color;
+        document.querySelector('#g10').style.color=color;
+        document.querySelector('#g11').style.color=color;
+        document.querySelector('#g12').style.color=color;
+        document.querySelector('#g13').style.color=color;
+        document.querySelector('#g14').style.color=color;
+        document.querySelector('#g15').style.color=color;
+        document.querySelector('#g16').style.color=color;
+        document.querySelector('#g17').style.color=color;
+        document.querySelector('#g18').style.color=color;
+        document.querySelector('#g19').style.color=color;
+        document.querySelector('#g20').style.color=color;
+        document.querySelector('#g21').style.color=color;
+        document.querySelector('#g22').style.color=color;
+        document.querySelector('#g23').style.color=color;
+        document.querySelector('#g24').style.color=color;
+        document.querySelector('#g25').style.color=color;
+        document.querySelector('#g26').style.color=color;
+        document.querySelector('#g27').style.color=color;
+        document.querySelector('#g28').style.color=color;
+        document.querySelector('#g29').style.color=color;
+        document.querySelector('#g30').style.color=color;
+        document.querySelector('#g31').style.color=color;
+        document.querySelector('#g32').style.color=color;
+        document.querySelector('#g33').style.color=color;
+        document.querySelector('#g34').style.color=color;
+        document.querySelector('#g35').style.color=color;
+        document.querySelector('#g36').style.color=color;
+}
+ colinputx.addEventListener('input',xo_color);
 
 
 
