@@ -2,7 +2,6 @@
    margin: 0;
   padding: 0;
 }
-
 body{
    display: flex;
    font-family: sans-serif ;
@@ -14,13 +13,11 @@ body{
     margin: 10px;
     padding: 10px;
 }
-
 #hexx{display: none}
 #colorx{
     margin: 10px;
     padding: 10px;
 }
-
 #hex{
     display: none
 }
@@ -28,17 +25,6 @@ body{
     margin: 10px;
     padding: 10px;
  }
-
-
-
-
-
-
-
-
-
-
-
 .container {
   background: #959998;
   margin-left: 150px;
@@ -46,15 +32,12 @@ body{
   padding: 50px;
   border-radius: 25px;
 }
-
 .title {
     text-align: center;
 }
-
 .title span {
   color: #F2EBD3;
 }
-
 .status-action {
   display: flex;
   margin-top: 25px;
@@ -62,19 +45,15 @@ body{
   justify-content: space-around;
   height: 30px;
 }
-
 .status span {
   color: #F2EBD3;
 }
-
 .reset {
   cursor: pointer;
 }
-
 .reset:hover {
   color: #F2EBD3;
 }
-
 .game-grid {
   background-color: rgba(0,0,0,0.5);
   display: grid;
@@ -83,7 +62,6 @@ body{
   grid-gap: 15px;
   margin-top: 50px;
 }
-
 .game-cell {
   background: #959998;
   display: flex;
@@ -93,21 +71,17 @@ body{
   height: 100px;
   width: 100px;
 }
-
 .x,.o {
   cursor: default;
 }
-
 .x::after {
   content: '×';
   font-size: 100px;
 }
-
 .o::after {
   content: '○';
   font-size: 125px;
 }
-
 .won::after {
   color: #BD022F;
 }
