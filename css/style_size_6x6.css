@@ -2,10 +2,9 @@
    margin: 0;
   padding: 0;
 }
-
 body {
-   display: flex;
-  font-family: sans-serif ;
+    display: flex;
+    font-family: sans-serif ;
     font-style: italic, bold;
     margin-left: 10px;
  }
@@ -36,11 +35,9 @@ body {
 .title {
     text-align: center;
 }
-
 .title span {
   color: #F2EBD3;
 }
-
 .status-action {
   display: flex;
   margin-top: 20px;
@@ -48,19 +45,15 @@ body {
   justify-content: space-around;
   height: 25px;
 }
-
 .status span {
   color: #F2EBD3;
 }
-
 .reset {
   cursor: pointer;
 }
-
 .reset:hover {
   color: #F2EBD3;
 }
-
 .game-grid {
   background-color: rgba(0,0,0,0.5);
   display: grid;
@@ -69,7 +62,6 @@ body {
   grid-gap: 15px;
   margin-top: 30px;
 }
-
 .game-cell {
   background: #959998;
   display: flex;
@@ -79,21 +71,17 @@ body {
   height: 50px;
   width: 50px;
 }
-
 .x,.o {
   cursor: default;
 }
-
 .x::after {
   content: '×';
   font-size: 50px;
 }
-
 .o::after {
   content: '○';
   font-size: 75px;
 }
-
 .won::after {
   color: #BD022F;
 }
