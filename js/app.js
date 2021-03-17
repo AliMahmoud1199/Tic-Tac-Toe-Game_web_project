@@ -107,7 +107,6 @@ const handleCellClick = (e) => {
     classList.add('o');
     checkGameStatus();
   }
- 
 };
 //event listeners ********************************************************************
 resetDiv.addEventListener('click', handleReset);
@@ -120,46 +119,25 @@ function fun_color() {
     let color=colinput.value;
     hexinput.value=color;
     document.querySelector('.container').style.backgroundColor=color;
-  // document.querySelectorAll('.game-cell').style.backgroundColor=color;
-        document.querySelector('#g1').style.backgroundColor=color;
-        document.querySelector('#g2').style.backgroundColor=color;
-        document.querySelector('#g3').style.backgroundColor=color;
-        document.querySelector('#g4').style.backgroundColor=color;
-        document.querySelector('#g5').style.backgroundColor=color;
-        document.querySelector('#g6').style.backgroundColor=color;
-        document.querySelector('#g7').style.backgroundColor=color;
-        document.querySelector('#g8').style.backgroundColor=color;
-        document.querySelector('#g9').style.backgroundColor=color;
-        //    console.log( document.querySelector('.x').textContent);//style.color=color;
-
-
-
+  var item=document.querySelectorAll('.game-cell'); //.style.backgroundColor=color;
+        		
+	for(let x of item)
+	{
+	x.style.backgroundColor=color;
+	}	
 }
 colinput.addEventListener('input',fun_color);
-
-
-
-//console.log(cellDivs.classList);
-//console.log(handleCellClick(e));
-//console.log( document.querySelector('.game-cell').value);//style.color=color;
-//******************************************** x o colors
-
-
-
+//******************************************** x o color
 let colinputx =document.querySelector('#colorx');
 let hexinputx =document.querySelector('#hexx'); 
 function xo_color() {
     let color=colinputx.value;
-    hexinputx.value=color;
-        document.querySelector('#g1').style.color=color;
-        document.querySelector('#g2').style.color=color;
-        document.querySelector('#g3').style.color=color;
-        document.querySelector('#g4').style.color=color;
-        document.querySelector('#g5').style.color=color;
-        document.querySelector('#g6').style.color=color;
-        document.querySelector('#g7').style.color=color;
-        document.querySelector('#g8').style.color=color;
-        document.querySelector('#g9').style.color=color;
+    hexinputx.value=color;	
+	var item=document.querySelectorAll('.game-cell'); //.style.backgroundColor=color;
+        	for(let x of item)
+	{
+	x.style.color=color;
+	}		 
 }
  colinputx.addEventListener('input',xo_color);
 
