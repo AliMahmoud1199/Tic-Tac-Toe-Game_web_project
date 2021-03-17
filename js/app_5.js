@@ -211,71 +211,26 @@ function fun_color() {
     hexinput.value=color;
     document.querySelector('.container').style.backgroundColor=color;
   // document.querySelector('.game-grid').style.backgroundColor=color;
-        document.querySelector('#g1').style.backgroundColor=color;
-        document.querySelector('#g2').style.backgroundColor=color;
-        document.querySelector('#g3').style.backgroundColor=color;
-        document.querySelector('#g4').style.backgroundColor=color;
-        document.querySelector('#g5').style.backgroundColor=color;
-        document.querySelector('#g6').style.backgroundColor=color;
-        document.querySelector('#g7').style.backgroundColor=color;
-        document.querySelector('#g8').style.backgroundColor=color;
-        document.querySelector('#g9').style.backgroundColor=color;
-        document.querySelector('#g10').style.backgroundColor=color;
-        document.querySelector('#g11').style.backgroundColor=color;
-        document.querySelector('#g12').style.backgroundColor=color;
-        document.querySelector('#g13').style.backgroundColor=color;
-        document.querySelector('#g14').style.backgroundColor=color;
-        document.querySelector('#g15').style.backgroundColor=color;
-        document.querySelector('#g16').style.backgroundColor=color;
-        document.querySelector('#g17').style.backgroundColor=color;
-        document.querySelector('#g18').style.backgroundColor=color;
-        document.querySelector('#g19').style.backgroundColor=color;
-        document.querySelector('#g20').style.backgroundColor=color;
-        document.querySelector('#g21').style.backgroundColor=color;
-        document.querySelector('#g22').style.backgroundColor=color;
-        document.querySelector('#g23').style.backgroundColor=color;
-        document.querySelector('#g24').style.backgroundColor=color;
-        document.querySelector('#g25').style.backgroundColor=color;
-         //    console.log( document.querySelector('.x').textContent);//style.color=color;
-
-
-
+	var item=document.querySelectorAll('.game-cell'); //.style.backgroundColor=color;
+      		
+	for(let x of item)
+	{
+	x.style.backgroundColor=color;
+	}	
 }
 colinput.addEventListener('input',fun_color);
-//console.log(cellDivs.classList);
-//console.log(handleCellClick(e));
-// console.log(xSymbol.style.color='red' );//style.color=color;
 //***************************************************** x o colors
 let colinputx =document.querySelector('#colorx');
 let hexinputx =document.querySelector('#hexx'); 
 function xo_color() {
     let color=colinputx.value;
     hexinputx.value=color;
-       document.querySelector('#g1').style.color=color;
-       document.querySelector('#g2').style.color=color;
-         document.querySelector('#g3').style.color=color;
-        document.querySelector('#g4').style.color=color;
-        document.querySelector('#g5').style.color=color;
-        document.querySelector('#g6').style.color=color;
-        document.querySelector('#g7').style.color=color;
-        document.querySelector('#g8').style.color=color;
-        document.querySelector('#g9').style.color=color;
-        document.querySelector('#g10').style.color=color;
-        document.querySelector('#g11').style.color=color;
-        document.querySelector('#g12').style.color=color;
-        document.querySelector('#g13').style.color=color;
-        document.querySelector('#g14').style.color=color;
-        document.querySelector('#g15').style.color=color;
-        document.querySelector('#g16').style.color=color;
-        document.querySelector('#g17').style.color=color;
-        document.querySelector('#g18').style.color=color;
-        document.querySelector('#g19').style.color=color;
-        document.querySelector('#g20').style.color=color;
-        document.querySelector('#g21').style.color=color;
-        document.querySelector('#g22').style.color=color;
-        document.querySelector('#g23').style.color=color;
-        document.querySelector('#g24').style.color=color;
-        document.querySelector('#g25').style.color=color;
+   var item=document.querySelectorAll('.game-cell'); //.style.backgroundColor=color;
+        
+	for(let x of item)
+	{
+	x.style.color=color;
+	}
 }
  colinputx.addEventListener('input',xo_color);
 
